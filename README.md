@@ -39,5 +39,14 @@ A way to encode categorical data is through one_hot encoding, where it receive t
 #### Text function to matrix tokenizer ####
 Another function of tokenizer is to convert text to matrix, and this is possible with function tokenizer.texts_to_matrix, where it have all information of the text, but transform in 1 and 0 through matrix.
 #### Design Vocabulary ####
+The vocabulary is created in based to TFIDF vectorizer. The vocabulary is update with new tokens.
 #### Prepare data for Sentiment Analysis ####
+To prepare data for a sentimental analysis, is necessary to do all steps previously named as: Split text with white space, remove punctuation, normalize words in lower case, tokenize with nltk.
 #### Final Project ####
+The final project is composed by the following functions: define model, prepare data, evaluate mode, predict sentiment, load doc, clean doc, doc to line, process docs, loan clean dataset and finally create tokenizer.
+
+This functions load doc, clean doc, doc to line, process docs, loan clean dataset and finally create tokenizer let prepare data to be used in the model later. 
+
+
+
+
